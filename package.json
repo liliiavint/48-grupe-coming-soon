@@ -10,7 +10,7 @@
   "author": "Rimantas (https://github.com/belauzas)",
   "license": "ISC",
   "devDependencies": {
-    "dev": "dead-server --host=localhost --port=4806",
+    "dev": "dead-server --host=localhost --port=4807",
     "dead-server": "^1.0.9"
   }
 }
