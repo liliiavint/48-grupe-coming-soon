@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "dead-server --host=localhost --port=4807",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Rimantas (https://github.com/belauzas)",
   "license": "ISC",
   "devDependencies": {
-    "dev": "dead-server --host=localhost --port=4807",
     "dead-server": "^1.0.9"
   }
 }
