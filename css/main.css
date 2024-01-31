@@ -11,42 +11,23 @@ body {
         sans-serif;
 }
 
-.red {
+.bg-blue {
+    background-color: lightblue;
+}
+
+.container {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container > .row {
     width: 1000px;
     margin-left: calc(50% - 500px);
-    font-size: 20px;
     background-color: pink;
 }
-
-@media (max-width: 1100px) {
-    .red {
-        width: 800px;
-        margin-left: calc(50% - 400px);
-        background-color: orange;
-    }
-}
-
-@media (max-width: 900px) {
-    .red {
-        width: 600px;
-        margin-left: calc(50% - 300px);
-        background-color: aqua;
-    }
-}
-
-@media (max-width: 700px) {
-    .red {
-        width: 400px;
-        margin-left: calc(50% - 200px);
-        background-color: violet;
-    }
-}
-
-@media (max-width: 460px) {
-    .red {
-        width: 100%;
-        margin-left: 0;
-        padding: 20px;
-        background-color: forestgreen;
-    }
+.container > .row-short {
+    width: 600px;
+    margin-left: calc(50% - 300px);
+    background-color: pink;
 }
