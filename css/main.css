@@ -1,0 +1,33 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+}
+
+.bg-blue {
+    background-color: lightblue;
+}
+
+.container {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container > .row {
+    width: 1000px;
+    margin-left: calc(50% - 500px);
+    background-color: pink;
+}
+.container > .row-short {
+    width: 600px;
+    margin-left: calc(50% - 300px);
+    background-color: pink;
+}
