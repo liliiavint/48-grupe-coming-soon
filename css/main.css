@@ -27,18 +27,18 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     gap: 2.5rem 0;
-    width: 63rem;
-    margin: 0 calc(50% - 500px);
+    width: 62rem;
+    margin: 0 calc(50% - 31rem);
 }
 .container > .row-short {
     width: 38rem;
-    margin: 0 calc(50% - 300px);
+    margin: 0 calc(50% - 19rem);
 }
 
 .container .column {
     display: flex;
     flex-direction: column;
-    gap: 1.12rem;
+    gap: 1.25rem;
     width: 50%;
 }
 .container .column.short {
@@ -57,23 +57,23 @@ body {
 }
 .hero > .logo {
     height: 2.5rem;
-    margin-bottom: 1.12rem;
+    margin-bottom: 1.25rem;
 }
 .hero > .main-title {
     font-size: 5rem;
 }
 .hero > .description {
-    font-size: 1.12rem;
+    font-size: 1.25rem;
 }
 
 /* CONTENT */
 
 .section-title {
-    font-size: 1.12rem;
+    font-size: 1.25rem;
     text-transform: uppercase;
 }
 .section-description {
-    font-size: 1.12rem;
+    font-size: 1.1rem;
     color: #737779;
 }
 .section-description > a {
@@ -93,29 +93,28 @@ footer.container {
 
 .socials.row {
     margin-bottom: 2rem;
-    gap:1.9rem;
+    gap: 0.5rem;
     padding: 1.25rem 0;
     border-bottom: 0.1rem solid #fff;
 }
 .socials > a {
-    width: 2.5rem;
-    height: 2.5rem;
-    color: #fff;
+    width: 2.4em;
+    height: 2.4em;
     font-size: 1.25rem;
-    line-height: 2.5rem;
-    text-decoration: none;
+    line-height: 2.4em;
+    color: #fff;
     text-align: center;
+    text-decoration: none;
     border-radius: 50%;
+    /* transition: background-color 1s, color 15s; */
     transition: all 0.3s;
-    /*transition: background-color 1s, color 15s;*/
-
 }
 .socials > a:hover {
     background-color: #fff;
-    color:#03a9f4;
+    color: #03a9f4;
     transition: all 1s;
-    
 }
+
 .footer-bottom {
     text-align: center;
 }
@@ -125,7 +124,7 @@ footer .logo {
     margin-bottom: 1.9rem;
 }
 footer p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.9rem;
     color: #fffb;
 }
@@ -142,14 +141,14 @@ footer p > a:hover {
 @media (max-width: 70rem) {
     .container > .row {
         width: 50rem;
-        margin: 0 calc(50% - 400px);
+        margin: 0 calc(50% - 25rem);
     }
 }
 
-@media (max-width: 57rem) {
+@media (max-width: 56rem) {
     .container > .row {
-        width: 39rem;
-        margin: 0 calc(50% - 300px);
+        width: 38rem;
+        margin: 0 calc(50% - 19rem);
     }
     .container .column {
         width: 100%;
@@ -164,11 +163,11 @@ footer p > a:hover {
     .container > .row,
     .container > .row-short {
         width: 25rem;
-        margin: 0 calc(50% - 200px);
+        margin: 0 calc(50% - 12.5rem);
     }
 }
 
-@media (max-width: 42.25rem) {
+@media (max-width: 42.5rem) {
     .container {
         padding-left: 1.25rem;
         padding-right: 1.25rem;
