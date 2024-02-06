@@ -97,11 +97,24 @@ footer.container {
     border-bottom: 1px solid #fff;
 }
 .socials > a {
+    width: 40px;
+    height: 40px;
     color: #fff;
     font-size: 20px;
+    line-height: 40px;
     text-decoration: none;
-}
+    text-align: center;
+    border-radius: 50%;
+    transition: all 0.3s;
+    /*transition: background-color 1s, color 15s;*/
 
+}
+.socials > a:hover {
+    background-color: #fff;
+    color:#03a9f4;
+    transition: all 1s;
+    
+}
 .footer-bottom {
     text-align: center;
 }
