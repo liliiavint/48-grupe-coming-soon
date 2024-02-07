@@ -38,6 +38,7 @@ body {
 .container .column {
     display: flex;
     flex-direction: column;
+
     gap: 1.25rem;
     width: 50%;
 }
@@ -138,7 +139,34 @@ footer p > a:hover {
 
 /* RESPONSIVE */
 
+
 @media (max-width: 70rem) {
+
+/* CONTENT */
+
+.section-title {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.section-description {
+    font-size: 18px;
+    color: #737779;
+}
+.section-description > a {
+    color: #ea1e63;
+    text-decoration: none;
+}
+.section-description > a:hover {
+    color: #c31851;
+    text-decoration: underline;
+}
+
+/* FOOTER */
+
+/* RESPONSIVE */
+
+@media (max-width: 1100px) {
+
     .container > .row {
         width: 50rem;
         margin: 0 calc(50% - 25rem);
