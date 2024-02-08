@@ -143,7 +143,16 @@ footer p > a {
 footer p > a:hover {
     text-decoration: underline;
 }
+.back-to-top{
+    background-color: red;
+    width:100px;
+    height: 100px;
+    position: fixed;
+    top:calc(50%-50);
+    left:calc(50%-50);
 
+
+}
 /* RESPONSIVE */
 
 @media (max-width: 70rem) {
