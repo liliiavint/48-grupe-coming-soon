@@ -19,3 +19,11 @@
     animation-duration: 0.9s;
     animation-iteration-count: infinite;
 }
+@keyframes scroll {
+    0% {
+        margin-top: 0.6em;
+    }
+    100% {
+        margin-top: 1.5em;
+    }
+}
